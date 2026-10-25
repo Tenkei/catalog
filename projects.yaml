@@ -175,7 +175,7 @@ projects:
   labels: [theme]
   category: theming
 - name: Zettelkasten
-  mkdocs_theme: zettelkasten-solarized-light
+  mkdocs_theme: zettelkasten
   mkdocs_plugin: [zettelkasten]
   github_id: buvis/mkdocs-zettelkasten
   pypi_id: mkdocs-zettelkasten
@@ -534,10 +534,10 @@ projects:
   labels: [plugin]
   category: charts
 - name: MkDocs Graphviz
-  markdown_extension: mkdocs_graphviz
+  mkdocs_plugin: mkdocs_graphviz
   gitlab_id: rod2ik/mkdocs-graphviz
   pypi_id: mkdocs-graphviz
-  labels: [markdown]
+  labels: [plugin]
   category: charts
 - name: mkdocs-diagrams
   mkdocs_plugin: diagrams
