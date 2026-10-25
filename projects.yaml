@@ -257,6 +257,14 @@ projects:
   pypi_id: mkdocs-shadcn
   labels: [theme, plugin]
   category: theming
+- name: Pixel Lab
+  mkdocs_theme: pixel-lab
+  mkdocs_plugin: [pixel-lab/metadata, pixel-lab/git-lastmod, pixel-lab/robots]
+  github_id: trained-by-humans/mkdocs-pixel-lab
+  pypi_id: mkdocs-pixel-lab
+  homepage: https://trained-by-humans.github.io/mkdocs-pixel-lab/
+  labels: [theme, plugin]
+  category: theming
 
 - name: automacdoc
   github_id: AlexandreKempf/automacdoc
